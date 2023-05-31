@@ -29,7 +29,7 @@ jobs:
           path: build
   deploy:
     runs-on: ubuntu-latest
-    # When application is successfully tested and build has been generated
+    # When application is successfully tested and build has been created
     # Then we can start with deployment
     needs: build
     steps:
